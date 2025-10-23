@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bird-drop', 'Defective', 'Dusty', 'Electrical-Damage', 'Non-Defective', 'Physical-Damage']
+
+roboflow:
+  workspace: solarpaneldamagedetectiongroup2
+  project: project_212_new
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solarpaneldamagedetectiongroup2/project_212_new/dataset/1
