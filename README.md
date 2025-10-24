@@ -70,6 +70,7 @@ solar-panel-defect-detection/
 ├── yolov9_best.pt              # Trained YOLOv9 model weights
 ├── requirements.txt            # Combined environment dependencies
 ├── README.md                   # Project documentation (this file)
+├── data.yaml                   # Data file
 └── sample_images/              # Example input images
 ```
 ---
