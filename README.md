@@ -1,5 +1,5 @@
 # Solar-Panel-Defect-Detection
-🔹 Solar Panel Defect Detection using **YOLOv9c-seg**
+🔹 **Solar Panel Defect Detection using YOLOv9c-seg**
 
 ---
 
@@ -128,7 +128,7 @@ pandas
 - If you wish to retrain:
   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arshiakauser/solar-panel-defect-detection/blob/main/train/train_yolov9.ipynb)
 
-**Steps to Run Locally:**
+**To Run Locally:**
 ```bash
 cd train
 jupyter notebook train_yolov9.ipynb
@@ -137,8 +137,7 @@ jupyter notebook train_yolov9.ipynb
 - Train the model.
 - Export the best model as yolov9_best.pt and move it to the project root.
 
-**Notes:**
-- You can use Google Colab GPU runtime for faster training.
+**Dataset Structure:**
 - Ensure your dataset is structured as:
 ```text
 dataset/
@@ -181,7 +180,7 @@ dataset/
 
 ## 🖥️ Deployment
 
-**Run the streamlit app Locally:**
+**Run Streamlit App Locally:**
 ```bash
 cd app
 streamlit run app.py
@@ -195,16 +194,17 @@ streamlit run app.py
 - User-friendly and responsive Streamlit UI
 
 ## 🧮 Example Output
-- **App Link:** 🔸 http://localhost:8501/ 
-- **Demo Video:** 🔸 
-  
-| Original Image                               |	                              Detected Output |
-
-<img width="977" height="603" alt="Solar_Panel_Defect_Detection_App_pic" src="https://github.com/user-attachments/assets/827afb5a-8bb6-4dbc-b4c3-39314a0e95bf" />
+| Original Image                    | Detected Output                     |
+| --------------------------------- | ----------------------------------- |
+| ![Bird_drop_1_jpg rf 33bf4c6e20f2fad07abfd430abf1a564](https://github.com/user-attachments/assets/440e6d5c-5827-4916-8c1a-96528f5f76f2) | <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/85b72993-223d-4c34-bc68-c9cb9f280b6d" /> |
 
 Detected Classes Example:
 - Bird Drop: 17
 - Defective: 6
+
+**App Link:** 🔸 http://localhost:8501/
+
+**Demo Video:** 🔸 
 
 ---
 
