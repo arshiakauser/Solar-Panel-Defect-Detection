@@ -77,7 +77,7 @@ solar-panel-defect-detection/
 ## 💾 Clone the Repository
 **Clone the repo**
 ```bash
-git clone https://github.com/yourusername/solar-panel-defect-detection.git
+git clone https://github.com/arshiakauser/solar-panel-defect-detection.git
 ```
 **Navigate into the project folder**
 ```bash
