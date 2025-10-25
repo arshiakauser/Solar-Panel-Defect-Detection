@@ -64,7 +64,7 @@ solar-panel-defect-detection/
 │   ├── requirements_app.txt    # (Optional) app-specific dependencies
 │
 ├── train/
-│   ├── train_yolov9.ipynb      # Model training notebook (Google Colab)
+│   ├── Train_Solaryolov9.ipynb      # Model training notebook (Google Colab)
 │   ├── requirements_train.txt  # (Optional) training dependencies
 │
 ├── yolov9_best.pt              # Trained YOLOv9 model weights
@@ -131,7 +131,7 @@ pandas
 **To Run Locally:**
 ```bash
 cd train
-jupyter notebook train_yolov9.ipynb
+jupyter notebook Train_Solaryolov9.ipynb
 ```
 - Update dataset paths and parameters as needed.
 - Train the model.
